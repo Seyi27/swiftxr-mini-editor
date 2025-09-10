@@ -85,7 +85,7 @@ const MiniEditor = () => {
           onChange={(e) => setLabel(e.target.value)}
           className="hotspot-input"
         />
-        <button onClick={handleSubmitLabel} className="submit-hotspot">Submit Hotspot</button>
+        <button onClick={handleSubmitLabel} className="submit-hotspot">Submit Label</button>
       </div>
 
       {/* 3D Canvas */}
